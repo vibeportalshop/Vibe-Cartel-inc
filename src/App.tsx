@@ -13,7 +13,7 @@ import { PackageItem } from './data/packagesData';
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedPackageId, setSelectedPackageId] = useState<string>('core-growth');
+  const [selectedPackageId, setSelectedPackageId] = useState<string>('growth-company');
   const [customEstimateData, setCustomEstimateData] = useState<{
     basePackageName: string;
     extraPages: number;
